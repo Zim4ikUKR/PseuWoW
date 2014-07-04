@@ -1,0 +1,24 @@
+include_directories (${PROJECT_SOURCE_DIR}/src/dep/include)
+add_library(PseuGUI
+CBoneSceneNode.cpp
+CCursorController.cpp
+CIrrKlangAudioStreamLoaderMP3.cpp
+CIrrKlangAudioStreamMP3.cpp
+CM2MeshFileLoader.cpp
+CMDHMemoryReadFile.cpp
+CWMOMeshFileLoader.cpp
+DrawObject.cpp
+DrawObjMgr.cpp
+ikpMP3.cpp
+irrKlangSceneNode.cpp
+MemoryInterface.cpp
+PseuGUI.cpp
+SceneCharselection.cpp
+Scene.cpp
+SceneGuiStart.cpp
+SceneLogin.cpp
+SceneWorld.cpp
+SceneLoading.cpp
+ShTlTerrainSceneNode.cpp
+CM2Mesh.cpp
+)
